@@ -6,7 +6,7 @@
 /*   By: lonnguye <lonnguye@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 23:03:26 by lonnguye          #+#    #+#             */
-/*   Updated: 2021/12/08 00:15:20 by lonnguye         ###   ########.fr       */
+/*   Updated: 2021/12/08 01:22:52 by lonnguye         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,6 +87,7 @@ t_list		*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 // int			ft_count_digit(int num);
 // int			ft_count_word(char const *str, char c);
 // int			ft_is_space(char c);
-// char		**ft_array_free(char **array);
+// char			**ft_array_free(char **array);
+// int			ft_absolute_value(int num);
 
 #endif

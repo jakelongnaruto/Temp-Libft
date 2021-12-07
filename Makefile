@@ -6,7 +6,7 @@
 #    By: lonnguye <lonnguye@student.hive.fi>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/30 15:41:28 by lonnguye          #+#    #+#              #
-#    Updated: 2021/12/08 00:15:08 by lonnguye         ###   ########.fr        #
+#    Updated: 2021/12/08 01:21:34 by lonnguye         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,7 +30,8 @@ SRCS = ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c\
 	ft_strrchr.c ft_strsplit.c\
 	ft_strstr.c ft_strsub.c ft_strtrim.c ft_tolower.c ft_toupper.c\
 	ft_putchar.c ft_putchar_fd.c\
-	# ft_array_free.c ft_count_digit.c ft_count_word.c ft_is_space.c
+	# ft_array_free.c ft_count_digit.c ft_count_word.c ft_is_space.c\
+	ft_absolute_value.c
 
 OBJECTS = $(SRCS:.c=.o)
 
