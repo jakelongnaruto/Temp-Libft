@@ -6,7 +6,7 @@
 /*   By: lonnguye <lonnguye@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 23:03:26 by lonnguye          #+#    #+#             */
-/*   Updated: 2021/12/08 01:22:52 by lonnguye         ###   ########.fr       */
+/*   Updated: 2021/12/09 14:42:52 by lonnguye         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 # define LIBFT_H
 
 # include <unistd.h>
-# include <stdio.h>
 # include <stdlib.h>
 # include <string.h>
 
@@ -84,10 +83,10 @@ void		ft_lstdel(t_list **alst, void (*del)(void *, size_t));
 void		ft_lstadd(t_list **alst, t_list *new);
 void		ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list		*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
-// int			ft_count_digit(int num);
-// int			ft_count_word(char const *str, char c);
-// int			ft_is_space(char c);
-// char			**ft_array_free(char **array);
-// int			ft_absolute_value(int num);
+int			ft_count_digit(int num);
+int			ft_count_word(char const *str, char c);
+int			ft_is_space(char c);
+char		**ft_array_free(char **array);
+int			ft_absolute_value(int num);
 
 #endif
